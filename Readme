@@ -1,0 +1,70 @@
+# Bus Ticket Booking System (MongoDB + Node.js)
+
+## Description
+
+The Bus Ticket Booking System is a web application that allows users to book bus tickets online. It is built using MongoDB as the database and Node.js as the server-side runtime environment. This system provides a user-friendly interface for searching and booking bus tickets, managing reservations, and generating tickets.
+
+## Features
+
+1. User Registration: Users can create new accounts by providing their personal details such as name, email, and password.
+
+2. User Login: Registered users can log in to the system using their email and password.
+
+3. Bus Search: Users can search for available bus routes by providing the source and destination locations, along with the date of travel.
+
+4. Seat Selection: Users can select their preferred seats from the available options on the selected bus.
+
+5. Ticket Booking: Users can book bus tickets by providing passenger details, including name, age, and contact information.
+
+6. Ticket Cancellation: Users can cancel their booked tickets and receive a refund based on the cancellation policy.
+
+7. Ticket Management: Users can view and manage their booked tickets, including printing or downloading the tickets.
+
+
+## Installation
+
+1. Clone the repository:
+
+   bash
+   git clone https://github.com/madanika/bus-ticket-booking.git
+   
+
+2. Install dependencies:
+
+   bash
+   cd bus-ticket-booking
+   npm install
+   
+
+3. Set up the MongoDB database:
+   - Install MongoDB on your system and start the MongoDB service.
+   - Create a new database named `bus_ticket_booking`.
+
+4. Configure environment variables:
+   - Create a `.env` file in the project root directory.
+   - Set the following environment variables in the `.env` file:
+     env
+     PORT=3000
+     MONGODB_URI=mongodb://localhost:27017/bus_ticket_booking
+     SECRET_KEY=your_secret_key
+     
+
+5. Start the application:
+
+   bash
+   npm start
+   
+
+6. Access the application by visiting `http://localhost:3000` in your web browser.
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- HTML/CSS
+- Bootstrap
+- JavaScript
+
+
